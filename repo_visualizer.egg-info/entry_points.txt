@@ -1,0 +1,2 @@
+[console_scripts]
+repo-vis = repo_visualizer.cli:main

@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "setup.py",
+      "type": "file",
+      "size": 871,
+      "lines": 28
+    },
+    {
+      "id": "repo_visualizer\\analyzer.py",
+      "type": "file",
+      "size": 3133,
+      "lines": 103
+    },
+    {
+      "id": "repo_visualizer\\cli.py",
+      "type": "file",
+      "size": 1026,
+      "lines": 33
+    },
+    {
+      "id": "repo_visualizer\\web.py",
+      "type": "file",
+      "size": 611,
+      "lines": 24
+    }
+  ],
+  "edges": [
+    {
+      "source": "repo_visualizer\\cli.py",
+      "target": "repo_visualizer\\analyzer.py",
+      "type": "import"
+    },
+    {
+      "source": "repo_visualizer\\cli.py",
+      "target": "repo_visualizer\\web.py",
+      "type": "import"
+    }
+  ]
+}

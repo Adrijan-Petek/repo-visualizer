@@ -1,0 +1,4 @@
+click>=8.0.0
+astroid>=2.0.0
+networkx>=2.0.0
+flask>=2.0.0
