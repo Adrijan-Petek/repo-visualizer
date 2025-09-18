@@ -1,5 +1,7 @@
 # Repo Visualizer
 
+[![CI](https://github.com/Adrijan-Petek/repo-visualizer/actions/workflows/ci.yml/badge.svg)](https://github.com/Adrijan-Petek/repo-visualizer/actions/workflows/ci.yml)
+
 A tool that analyzes a GitHub repository and generates an interactive graph showing the structure of the codebase — files, modules, dependencies, and their relationships.
 
 ## Installation
